@@ -1,0 +1,218 @@
+h2 {
+    margin: 0px;
+}
+
+.flex {
+    display: flex;
+}
+
+#map-container {
+    overflow-anchor:none;
+}
+
+.dashboard_header_holder {
+    display: flex;
+    height: 77px;
+}
+
+.truck_list_number {
+    width: 80%;
+    font-weight: 600;
+}
+
+.truck_running_last_running {
+    font-size: 12px ;
+}
+
+.side_panel_holder input {
+    width: 90%;
+    margin: 3% 2%;
+    padding: 2%;
+    box-shadow: 0px 5px 11px 0px #0a09090d;
+    outline: none;
+}
+
+.truck_list_last_creation {
+    width: 20%;
+    font-size: 12px;
+    line-height: 21px;
+    color: grey;
+    text-align: right;
+}
+
+.truck_running_last_running {
+    width: 75%;
+}
+
+.truck_running_speed {
+    width: 25%;
+    font-size: 11px;
+    overflow: hidden;
+    text-align: right;
+}
+
+.truck_count_holder {
+    width: 20%;
+    overflow-y: auto;
+}
+
+.truck_filter_holder {
+    width: 100%;
+}
+
+.truck_filter span:hover {
+    cursor: pointer;
+    background-color: #c5b1b12b;
+}
+
+.custom_select_area:hover {
+    background-color: white !important;
+}
+
+.truck_count {
+    background-color: #eee;
+    text-align: center;
+    padding: 15px 0px;
+    font-size: 15px;
+}
+
+.truck_count div {
+    font-size: 13px;
+}
+
+.truck_filter {
+    display: flex;
+}
+
+.truck_filter span {
+    width: 13%;
+    height: 100%;
+    text-align: center;
+    padding: 15px 1.85%;
+}
+
+.truck_filter span div {
+    font-size: 13px;
+}
+
+.truck_filter span select {
+    margin-top: 20px;
+}
+
+.dashboard_body_holder {
+    height: 88vh;
+    display: flex;
+}
+
+.side_panel_holder {
+    width: 20%;
+    border-right: 1px solid #eee;
+    overflow-y: auto;
+}
+
+.map_container_holder {
+    width: 80%;
+}
+
+.truck_card_list {
+    padding: 4%;
+    border-bottom: 2px solid #eee;
+}
+
+.truck_card_list:hover {
+    opacity: 0.5;
+    cursor: pointer;
+    border-bottom: 2px solid grey;
+}
+
+.truck_card_list h2 {
+ font-size: 15px;
+}
+
+.truck_running_status {
+    font-size: 11px;
+}
+
+.custom_multiselect_container {
+    position: relative;
+}
+
+.custom_multiselect_caret {
+    padding: 0px;
+}
+
+.custom_multiselect_caret:hover {
+    background-color: white !important;
+    padding: 2px;
+}
+
+.select_multiselect {
+    border: 1px solid black;
+    padding: 5px;
+}
+
+.select_multiselect input {
+    width: 90%;
+    outline: none;
+    padding-left: 5px;
+}
+
+.selected_area_multiselect {
+    background-color: white;
+    z-index: 111;
+    width: 100%;
+    box-shadow: 0px 2px 4px 3px #0000002e;
+    max-height: 165px;
+    overflow-y: auto;
+}
+
+.selected_area_multiselect ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+.selected_area_multiselect ul li {
+    list-style: none;
+    text-align: left;
+    padding-left: 9px;
+    padding: 3px 9px;
+    border-bottom: 1px solid #eee;
+}
+
+.selected_area_multiselect ul li:hover {
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.custom_multiselect_container {
+    background: white;
+    z-index: 111;
+}
+
+.selected_option_multiselect {
+    background-color: blue;
+    color: white;
+    overflow: auto;
+}
+
+.selected_option_multiselect ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+.select_margin {
+    margin-top: 25px;
+}
+
+.selected_option_multiselect ul li {
+    list-style: none;
+    text-align: left;
+    padding-left: 9px;
+    padding: 3px 9px;
+    border-bottom: 1px solid #eee;
+}
+
+.selected_option_multiselect ul li:hover {
+    cursor: pointer;
+    background-color: #eee;
+}
